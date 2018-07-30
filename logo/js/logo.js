@@ -36,9 +36,9 @@ function draw() {
 	blendMode(BLEND);
 	background(0, 0, 0);
 	fill('#ffffff');
-	textStyle(NORMAL);
-	textSize(120);
-	text('convol.io', topX + numBoxes * boxWidth + 40, topY + numBoxes * boxWidth + 12);
+	//textStyle(NORMAL);
+	//textSize(120);
+	//text('convol.io', topX + numBoxes * boxWidth + 40, topY + numBoxes * boxWidth + 12);
 	
 	blendMode(HARD_LIGHT );
 	for(var i=0;i<numBoxes;i++){
